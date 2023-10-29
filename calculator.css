@@ -1,0 +1,68 @@
+#main{
+    width: 400px;  
+    height: 520px;
+    background-color:#1d3849;
+    border-radius: 10px;
+    margin: 28%;
+  }
+  #screen {
+      height: 50px;
+     background-color: blueviolet;
+      border: 2px solid;
+      width: 377px;
+      margin: 10px;
+      border-radius: 10px;
+  }
+  .row{
+      margin-top: 33px;
+      width: 95%;
+      height: 75px;
+    background-color: rgb(72, 70, 62);
+      border: 2px solid;
+      margin-left: 9px;
+      border-radius: 12px;
+      
+  }
+  .btn {
+      width: 60px;
+      height: 60px;
+      background: silver;
+      color: black;
+      margin-left: 25px;
+      margin-top: 9px;
+      border: 3px solid;
+      border-radius: 100%;
+      font: weight 10px;
+      font-size: larger;
+  }
+.btn:hover{
+    cursor: pointer;
+    transform:scale(1.05)
+}
+
+  #output{
+      width: 369px;
+      height: 44px;
+      background-color: rgb(249, 246, 243);
+      border-radius: 5px;
+  }
+  .clear {
+      width: 58px;
+      height: 26px;
+      margin-top: 5px;
+      margin-left: 156px;
+      border-radius: 7px;
+      border-color: red;
+      border-width: 2px;
+      font-size:large;
+      font-weight:2px;
+      color: rgb(255, 5, 5);
+  }
+  #body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210311/pngtree-calculator-childrens-day-toy-background-image_582237.jpg');
+  }
