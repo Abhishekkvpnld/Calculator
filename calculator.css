@@ -26,14 +26,15 @@
   .btn {
       width: 60px;
       height: 60px;
-      background: silver;
-      color: black;
+      background: rgb(16, 15, 15);
+      color: rgb(248, 248, 248);
       margin-left: 25px;
       margin-top: 9px;
-      border: 3px solid;
+      border: 1px solid;
       border-radius: 100%;
       font: weight 10px;
       font-size: larger;
+
   }
 .btn:hover{
     cursor: pointer;
@@ -45,6 +46,8 @@
       height: 44px;
       background-color: rgb(249, 246, 243);
       border-radius: 5px;
+      font-size:x-large;
+      font-weight: bold;
   }
   .clear {
       width: 58px;
